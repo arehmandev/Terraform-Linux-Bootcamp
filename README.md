@@ -12,10 +12,11 @@ security_group_name = "abdulsg"
 ```
 
 ## Next:
-
+```
 terraform fmt
 terraform plan
 terraform apply
+```
 
 ## Finally:
 

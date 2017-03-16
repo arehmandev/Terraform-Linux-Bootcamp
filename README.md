@@ -2,7 +2,7 @@
 
 This instance will run Amazon Linux (similar to RHEL/Centos 6)
 
-##First:
+## First:
 
 Change terraform.tfvars - these 3 values need changing to something unique:
 ```
@@ -11,13 +11,13 @@ instance_name = "abdulinstance"
 security_group_name = "abdulsg"
 ```
 
-##Next:
+## Next:
 
 terraform fmt
 terraform plan
 terraform apply
 
-##Finally:
+## Finally:
 
 The instance IP is given as an output. Wait for the instance to be ready.
 
